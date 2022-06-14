@@ -276,9 +276,9 @@ export default function InviteMembersForm({
               {inviteList.map((address, index) => (
                 <InviteAddress
                   key={address}
-                  address={address + index}
+                  address={address}
                   currentUser={address === userAddress}
-                  index={index}
+                  index={index + 1}
                   onRemoveClick={() => removeAddressFromInviteList(address)}
                 />
               ))}
