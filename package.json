@@ -150,7 +150,7 @@
     "zustand": "^3.7.2"
   },
   "devDependencies": {
-    "@notifi-network/notifi-core": "^0.18.2",
+    "@notifi-network/notifi-core": "^0.41.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.2.5",
     "@types/carbon__icons-react": "^11.7.0",
